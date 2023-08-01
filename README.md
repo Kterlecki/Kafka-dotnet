@@ -26,22 +26,22 @@ From <https://stackoverflow.com/questions/62535706/how-to-resolve-kafka-error-co
 
 
 To start the servers:
-`./bin/windows/zookeeper-server-start.bat config/zookeeper.properties`
-`./bin/windows/kafka-server-start.bat config/server.properties`
+- `./bin/windows/zookeeper-server-start.bat config/zookeeper.properties`
+- `./bin/windows/kafka-server-start.bat config/server.properties`
 
 
 To create a topic: 
-``bin/windows/kafka-topics.bat --create --topic quickstart-events --bootstrap-server localhost:9092``
+- ``bin/windows/kafka-topics.bat --create --topic quickstart-events --bootstrap-server localhost:9092``
 
 To List the topics available: 
-``bin/windows/kafka-topics.bat --list --bootstrap-server localhost:9092 ``
+- ``bin/windows/kafka-topics.bat --list --bootstrap-server localhost:9092 ``
 
 
 Display All Kafka Messages in a Topic: 
-``./bin/windows/kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic quickstart-events --from-beginning``
+- ``./bin/windows/kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic quickstart-events --from-beginning``
 
 
 Shut Down Zookeeper and Kafka: 
-`./bin/windows/zookeeper-server-stop.bat`
-`./bin/windows/kafka-server-stop.bat`
+- `./bin/windows/zookeeper-server-stop.bat`
+- `./bin/windows/kafka-server-stop.bat`
 
