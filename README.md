@@ -19,8 +19,8 @@ Installation of Package:
 
 
 
-server.properties to change
-listeners=PLAINTEXT://:9092 to listeners=PLAINTEXT://127.0.0.1:9092
+`server.properties` to change
+- `listeners=PLAINTEXT://:9092` to `listeners=PLAINTEXT://127.0.0.1:9092`
 
 From <https://stackoverflow.com/questions/62535706/how-to-resolve-kafka-error-connection-to-node-0-could-not-be-established> 
 
