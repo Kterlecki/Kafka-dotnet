@@ -7,7 +7,7 @@ namespace kafka_dotnet.Services;
 
 public class KafkaConsumerService : IHostedService
 {
-    private readonly string _topic = "test";
+    private readonly string _topic = "quickstart-events";
     private readonly string _groupId = "test_group";
     private readonly string bootstrapServers = "localhost:9092";
     public Task StartAsync(CancellationToken cancellationToken)
